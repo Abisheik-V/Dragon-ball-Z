@@ -203,8 +203,7 @@ function App() {
   const loadingTips = {
     goku: "Preparing the Kaio-ken multiplier... Remember, Goku's power level in base was over 9,000 against Nappa!",
     vegeta: "Polishing the Saiyan armor... Fun fact: Vegeta's hair never changes from the day he is born!",
-    trunks: "Sharpening the Brave Sword... Trunks is a hybrid Saiyan, possessing high latent potential.",
-    jiren: "Universe 11 Pride Trooper energy standing by. Jiren relies on absolute individual strength rather than teamwork."
+    trunks: "Sharpening the Brave Sword... Trunks is a hybrid Saiyan, possessing high latent potential."
   };
 
   return (

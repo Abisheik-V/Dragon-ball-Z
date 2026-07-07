@@ -1,7 +1,6 @@
 import gokuModel from '../assets/3D Models/gokucharacter3dmodel.glb';
 import vegetaModel from '../assets/3D Models/thesaiyajin_-_vegeta_bodyguard.glb';
 import trunksModel from '../assets/3D Models/trunkz_dragon_ball_z__0721210019_texture.glb';
-import jirenModel from '../assets/3D Models/jiren_the_gray_dragon_ball_super_dbz_free_model.glb';
 
 export const characters = [
   {
@@ -211,56 +210,6 @@ export const characters = [
         name: 'Shining Sword Attack',
         description: 'A lethal combo. Trunks charges with his sword, slashes the opponent to pieces at high speed, and finishes them off with a point-blank energy blast.',
         soundType: 'sword'
-      }
-    ]
-  },
-  {
-    id: 'jiren',
-    name: 'Jiren the Gray',
-    title: 'The Unrivaled Mighty Mortal',
-    race: 'Unknown',
-    affiliation: 'Pride Troopers (Universe 11)',
-    firstAppearance: 'Dragon Ball Super Episode 85',
-    voiceActor: 'Yukinori Okata (JP) / Patrick Seitz (EN)',
-    basePowerLevel: 11000,
-    biography: 'A member of the Pride Troopers, a peace-keeping hero team of Universe 11. Haunted by the childhood tragedy of his master and friends being killed by a demon, Jiren abandoned trust and team-up battle, believing that "Strength is absolute justice." His power exceeds that of a God of Destruction.',
-    modelPath: jirenModel,
-    scale: 1.1,
-    position: [0, 0, 0],
-    rotation: [0, 0, 0],
-    defaultLightColor: '#ff7777',
-    forms: [
-      {
-        id: 'base',
-        name: 'Pride Trooper',
-        auraColor: '#ff4444',
-        auraIntensity: 0.8,
-        accentColor: '#FF2E2E',
-        glowStyle: 'rgba(255, 46, 46, 0.5)',
-        stats: { power: 96, ki: 95, speed: 96, defense: 98, technique: 92 },
-        description: 'Jiren\'s standard state. He emits an intense, burning red aura, capable of deflecting high-level attacks with just his Ki glare.'
-      },
-      {
-        id: 'full',
-        name: 'Super Full Power',
-        auraColor: '#ff2200',
-        auraIntensity: 2.2,
-        accentColor: '#e60000',
-        glowStyle: 'rgba(230, 0, 0, 0.9)',
-        stats: { power: 100, ki: 100, speed: 99, defense: 100, technique: 96 },
-        description: 'Jiren unlocks his inner volcanic power by breaking his limits. His aura becomes an exploding solar flare of pure, condensed power, burning with raw energy.'
-      }
-    ],
-    moves: [
-      {
-        name: 'Power Impact',
-        description: 'Jiren fires a reddish-orange Ki sphere that starts small, then expands into a massive explosion upon contact, trapping opponents in its thermal blast.',
-        soundType: 'impact'
-      },
-      {
-        name: 'Colossal Slash',
-        description: 'Jiren throws a swift, invisible punches that manifest as colossal, red energy shockwaves cutting through space itself.',
-        soundType: 'glare'
       }
     ]
   }
